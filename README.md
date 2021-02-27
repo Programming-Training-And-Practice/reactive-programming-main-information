@@ -7,6 +7,8 @@
 ## Contents at a Glance.
 * [About.](#about)
 * [Documentation.](#documentation)
+* [Reactor Patterns.](https://github.com/descriptions-of-it-technologies/software-design-principles-and-patterns/blob/master/reactor-patterns.md)  
+* [Multi Reactor Patterns.](https://github.com/descriptions-of-it-technologies/software-design-principles-and-patterns/blob/master/multi-reactor-patterns.md)
 * [Articles.](#articles)
 * [Conferences.](#conferences)
 * [Conference Speakers.](#conference-speakers)
