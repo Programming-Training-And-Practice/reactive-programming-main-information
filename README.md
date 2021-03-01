@@ -31,6 +31,35 @@
 
 
 
+## Reactive Manifesto.
+* Responsive
+  * The system responds in a timely manner.
+  * Responsiveness is the cornerstone of usability and utility.
+  * Responsiveness also means problems may be detected quickly and dealt with effectively.
+  * Responsive systems provide rapid and consistent response times.
+  * Consistent behavior simplifies error handling, builds end user confidence, and encourages further interaction.
+* Resilient
+  * System stays responsive in the face of failure.
+  * Resilience is achieved by replication, containment, isolation, and delegation.
+  * Failures are contained within each component.
+  * Parts of the system can fail, without compromising the system as a whole.
+  * Recovery of each component is delegated to another.
+  * High-availability is ensured by replication where necessary.
+* Elastic
+  * The system stays responsive under varying workload.
+  * Reactive Systems can react to changes in the input rate by increasing or decreasing resources allocated to service inputs.
+  * Reactive Systems achieve elasticity in a cost effective way on commodity hardware and software platforms.
+* Message-driven.
+  * Reactive Systems rely on asynchronous message passing to establish a boundary between components.
+  * This ensures loose coupling, isolation, and location transparency.
+  * Message passing enables load management, elasticity, and flow control.
+  * Location transparent messaging makes management of failures possible
+  * Non-blocking communication allows recipients to only consume resources while active, leading to less system overhead.
+
+
+
+
+
 ## Reactive Programming
 * Reactive Programming is an asynchronous programming paradigm focused on streams of data.
 * “Reactive programs also maintain a continuous interaction with their environment, but at a speed which is determined 
@@ -115,59 +144,6 @@
 
 ## .
 * Reactive programming is programming with asynchronous data streaming.
-
-
-
-
-
-## Manifesto.
-* Responsive.
-* Resilient.
-* Elastic.
-* Message-driven.
-
-
-
-
-
-## Reactive Manifesto - Responsive.
-* The system responds in a timely manner.
-* Responsiveness is the cornerstone of usability and utility.
-* Responsiveness also means problems may be detected quickly and dealt with effectively.
-* Responsive systems provide rapid and consistent response times.
-* Consistent behavior simplifies error handling, builds end user confidence, and encourages further interaction.
-
-
-
-
-
-### Reactive Manifesto - Resilient.
-* System stays responsive in the face of failure.
-* Resilience is achieved by replication, containment, isolation, and delegation.
-* Failures are contained within each component.
-* Parts of the system can fail, without compromising the system as a whole.
-* Recovery of each component is delegated to another.
-* High-availability is ensured by replication where necessary.
-
-
-
-
-
-### Reactive Manifesto - Elastic.
-* The system stays responsive under varying workload.
-* Reactive Systems can react to changes in the input rate by increasing or decreasing resources allocated to service inputs.
-* Reactive Systems achieve elasticity in a cost effective way on commodity hardware and software platforms.
-
-
-
-
-
-### Reactive Manifesto - Message Driven
-* Reactive Systems rely on asynchronous message passing to establish a boundary between components.
-* This ensures loose coupling, isolation, and location transparency.
-* Message passing enables load management, elasticity, and flow control.
-* Location transparent messaging makes management of failures possible
-* Non-blocking communication allows recipients to only consume resources while active, leading to less system overhead.
 
 
 
