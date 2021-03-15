@@ -9,6 +9,8 @@
 * [Documentation.](#documentation)
 * [Reactor Patterns.](https://github.com/descriptions-of-it-technologies/software-design-principles-and-patterns/blob/master/reactor-patterns.md)  
 * [Multi Reactor Patterns.](https://github.com/descriptions-of-it-technologies/software-design-principles-and-patterns/blob/master/multi-reactor-patterns.md)
+* [Reactive Systems.](https://github.com/descriptions-of-it-technologies/reactive-systems)
+* [Reactive Streams.](https://github.com/descriptions-of-it-technologies/reactive-streams)  
 * [Articles.](#articles)
 * [Conferences.](#conferences)
 * [Conference Speakers.](#conference-speakers)
@@ -25,36 +27,12 @@
 
 
 ## Documentation.
-* [Reactive Manifesto.](https://www.reactivemanifesto.org/)
 
 
 
 
 
-## Reactive Manifesto.
-* Responsive
-  * The system responds in a timely manner.
-  * Responsiveness is the cornerstone of usability and utility.
-  * Responsiveness also means problems may be detected quickly and dealt with effectively.
-  * Responsive systems provide rapid and consistent response times.
-  * Consistent behavior simplifies error handling, builds end user confidence, and encourages further interaction.
-* Resilient
-  * System stays responsive in the face of failure.
-  * Resilience is achieved by replication, containment, isolation, and delegation.
-  * Failures are contained within each component.
-  * Parts of the system can fail, without compromising the system as a whole.
-  * Recovery of each component is delegated to another.
-  * High-availability is ensured by replication where necessary.
-* Elastic
-  * The system stays responsive under varying workload.
-  * Reactive Systems can react to changes in the input rate by increasing or decreasing resources allocated to service inputs.
-  * Reactive Systems achieve elasticity in a cost effective way on commodity hardware and software platforms.
-* Message-driven.
-  * Reactive Systems rely on asynchronous message passing to establish a boundary between components.
-  * This ensures loose coupling, isolation, and location transparency.
-  * Message passing enables load management, elasticity, and flow control.
-  * Location transparent messaging makes management of failures possible
-  * Non-blocking communication allows recipients to only consume resources while active, leading to less system overhead.
+
 
 
 
@@ -67,7 +45,11 @@
   communication, while reactive programs only work in response to external demands and mostly deal with accurate 
   interrupt handling. Real-time programs are usually reactive.”
   Gerad Berry, French Computer Scientist
-
+* A means of reacting to changes and events. Spreadsheet programs are a great example of reactive programming: when cell
+  data hanges, cells having formulas depending on affected cells are recomputed automatically. Later in this book you
+  will seeRxJava, a popular reactive extensions API for Java that greatly helps coordinate asynchronous event and
+  data processing. There is also functional reactive programming.
+* Reactive programming is programming with asynchronous data streaming.
 
 
 
@@ -140,16 +122,6 @@
 * Traditional CRUD applications are still alive and well.
 
 
-
-
-## .
-* Reactive programming is programming with asynchronous data streaming.
-
-
-
-
-
-## 
 
 
 
