@@ -32,12 +32,6 @@
 
 
 
-
-
-
-
-
-
 ## Reactive Programming
 * Reactive Programming is an asynchronous programming paradigm focused on streams of data.
 * “Reactive programs also maintain a continuous interaction with their environment, but at a speed which is determined 
@@ -53,12 +47,17 @@
 
 
 
+
+
 ## Common Use Cases
 * External Service Calls
 * Highly Concurrent Message Consumers
 * Spreadsheets
 * Abstraction Over Asynchronous Processing
   * Abstract whether or not your program is synchronous or asynchronous
+
+
+
 
 
 ## Features of Reactive Programming
@@ -70,12 +69,17 @@
 
 
 
+
+
 ## Data Streams
 * Data Streams can be just about anything.
 * Mouse clicks, or other user interactions.
 * JMS Messages, RESTful Service calls, Twitter feed, Stock Trades, list of data from a database.
 * A Stream is a sequence of events ordered in time.
 * Events you want to listen to.
+
+
+
 
 
 ## Asynchronous
@@ -86,13 +90,18 @@
 
 
 
+
+
 ## GoF Observer Pattern.
 ![GoF Observer Pattern.](images/GoF-Observer-Pattern.png)
 
 
 
+
+
 ## ReactiveX Observable.
 ![ReactiveX Observable.](images/ReactiveX-Observable.png)
+
 
 
 
@@ -106,8 +115,13 @@
 * Non-blocking in contrast, will process available data, ask to be notified when more is available, then continue.
 
 
+
+
+
 ## Back Pressure
 * The ability of the subscriber to throttle data.
+
+
 
 
 
@@ -115,6 +129,9 @@
 * Exceptions are not thrown in a traditional sense.
   * Would break processing of stream.
 * Exceptions are processed by a handler function.
+
+
+
 
 
 ## Key Take Aways
